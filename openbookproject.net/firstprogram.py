@@ -16,6 +16,7 @@ print (message)
 ## message is a variable.
 ## len is a built-in Python function that returns the number of characters in a string, example:
 x = len("hello")
+## return 5
 ## When a variable name appears in the place of an operand, it is replaced with its value before the operation is performed.
 ## Example: so let us convert 645 minutes into hours:
 minutes = 645
@@ -25,4 +26,14 @@ hours
 ## The functions int, float and str, can be used to convert their arguments into types int, float and str respectively.
 ## Example: 
 int (192,50)
-## Will return the number 192
+## Will return the number 192.
+## The + operator does work with strings, but for strings, the + operator represents concatenation, not addition.
+## Example: 
+name = "Camila"
+last_name = " Mota"
+print(name + last_name)
+## The output of this program is Camila Mota.
+## When you want a string to be repeated, use * followed by the number of repetitions.
+## The function imput creates a dialog
+## Example: 
+n = input("Please enter your name: ")
