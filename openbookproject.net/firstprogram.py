@@ -16,3 +16,8 @@ print (message)
 ## message is a variable.
 ## len is a built-in Python function that returns the number of characters in a string, example:
 x = len("hello")
+## When a variable name appears in the place of an operand, it is replaced with its value before the operation is performed.
+## Example: so let us convert 645 minutes into hours:
+minutes = 645
+hours = minutes / 60
+hours
