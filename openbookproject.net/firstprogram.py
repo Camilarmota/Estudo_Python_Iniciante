@@ -21,3 +21,8 @@ x = len("hello")
 minutes = 645
 hours = minutes / 60
 hours
+## To return an integer value when dividing, two slashes are used //, called floor division.
+## The functions int, float and str, can be used to convert their arguments into types int, float and str respectively.
+## Example: 
+int (192,50)
+## Will return the number 192
