@@ -14,3 +14,5 @@ I'm enjoying studying Python.
 I want to become a data scientist. """
 print (message)
 ## message is a variable.
+## len is a built-in Python function that returns the number of characters in a string, example:
+len (message)
